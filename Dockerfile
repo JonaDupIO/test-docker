@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 MAINTAINER Jonathan Dupuich <jonathan.dupuich@gmail.com>
 
 RUN apt-get update
-RUN apt-get upgrade
+RUN apt-get -y upgrade
 
 EXPOSE 22
 
